@@ -1,0 +1,28 @@
+name: Feature request
+description: Suggest an improvement for OpenedWindow
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would you like the app to do?
+      description: Describe the desired behavior and why the current behavior is not enough.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Cars/tracks/setups where this matters, examples from other games, workarounds you use today.
+    validations:
+      required: false
+  - type: checkboxes
+    id: known
+    attributes:
+      label: Checks
+      options:
+        - label: I read the README "Known limitations" section — the request is not a CSP hard cap (global channel volumes cap at 1.0)
+          required: true
+        - label: I checked existing issues for the same request
+          required: true

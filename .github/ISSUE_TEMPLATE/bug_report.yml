@@ -1,0 +1,70 @@
+name: Bug report
+description: Report a problem with the OpenedWindow app
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    value: |
+      Thanks for the detailed report! Fill in every field — most bugs can be diagnosed from the log lines alone.
+  - type: input
+    id: ac-version
+    attributes:
+      label: Assetto Corsa version
+      placeholder: "e.g. 1.16.1 (Steam, latest)"
+    validations:
+      required: true
+  - type: input
+    id: csp-version
+    attributes:
+      label: CSP (Custom Shaders Patch) version
+      placeholder: "e.g. 0.2.x — shown in Content Manager bottom bar / CSP settings"
+    validations:
+      required: true
+  - type: input
+    id: car-name
+    attributes:
+      label: Car name (mod folder name)
+      placeholder: "e.g. dthwsh_nissan_240sx_c_kat"
+    validations:
+      required: true
+  - type: dropdown
+    id: car-has-animation
+    attributes:
+      label: Does the car ship window animations?
+      options:
+        - "Yes — app header shows 'Animation: N window ksanim: ...'"
+        - "No — app header shows 'no window ksanim'"
+        - "Don't know"
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: Steps to reproduce + what you saw/heard. Include what you expected.
+      placeholder: "1. Load car X... 2. Press bound key... 3. Expected windows to roll, got ..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: "Log lines (required)"
+      description: "Paste the relevant lines from Documents\\Assetto Corsa\\logs\\custom_shaders_patch.log (search for 'OpenedWindow'), and if present the app's own log at Documents\\Assetto Corsa\\cfg\\extension\\state\\lua\\app\\OpenedWindow.log"
+      render: text
+    validations:
+      required: true
+  - type: checkboxes
+    id: context
+    attributes:
+      label: Context
+      options:
+        - label: No other app that changes car audio volumes is running (e.g. Car Volume Adjuster)
+          required: false
+        - label: No separate window-animation app (e.g. WindowAnimation) is installed in apps\lua
+          required: false
