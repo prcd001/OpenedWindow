@@ -43,6 +43,11 @@ Copy the `OpenedWindow` folder to:
 | `docs/test_suite.md` | manual in-game test suite (all PASS on v1.1.3) |
 | `docs/INSTALL.md` | full installation & key-binding guide |
 
-## Credits
+## Credits and third-party
 
-Developed by **prcd** with AI assistance — the app was designed, coded and debugged together with an AI agent running the **qwen3.8-flash-next** model (Hermes Agent, Nous Research). All in-game verification was done manually by the author.
+- **Made by prcd** with AI assistance — the app was designed, coded and debugged together with an AI agent running the **qwen3.8-flash-next** model (Hermes Agent, Nous Research). All in-game verification was done manually by the author.
+- **[Custom Shaders Patch (CSP)](https://github.com/ac-custom-shaders-patch/acc-extension-config)** by the ac-custom-shaders-patch team — the Lua apps system, audio APIs (`ac.setAudioVolume`, `ac.AudioEvent`, `ac.INIConfig.scriptSettings`) and `setAnimation` this app builds on.
+- **Assetto Corsa** by Kunos Simulazioni — the game and its per-car `.ksanim` window animations.
+- No third-party example apps were copied into this codebase; the CSP audio and app APIs were used directly.
+- **Sound files** in `sounds/` are not covered by the MIT code license — see [sounds/README.md](sounds/README.md) for source/license status.
+- Code license: **MIT** (see [LICENSE](LICENSE)).
