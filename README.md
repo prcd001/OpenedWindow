@@ -20,6 +20,8 @@ Copy the `OpenedWindow` folder to:
 
 (e.g. `D:\SteamLibrary\steamapps\common\assettocorsa\apps\lua\OpenedWindow\`), restart the game, then enable the app in CSP app settings and bind the toggle key.
 
+→ **Full step-by-step guide (requirements, folder-structure check, key binding, verification, wind sounds, uninstall, troubleshooting): [docs/INSTALL.md](docs/INSTALL.md)**
+
 ## Features
 
 - 3.5 s motor-like transition ramp (main toggle); setting changes (camera in/out, cockpit-only tick) snap instantly
@@ -39,6 +41,7 @@ Copy the `OpenedWindow` folder to:
 | `sounds/window_open.mp3`, `sounds/window_close.mp3` | motor one-shots |
 | `sounds/wind_low.*`, `sounds/wind_high.*` | *not included* — loopable wind recordings to be supplied |
 | `docs/test_suite.md` | manual in-game test suite (all PASS on v1.1.3) |
+| `docs/INSTALL.md` | full installation & key-binding guide |
 
 ## Credits
 
