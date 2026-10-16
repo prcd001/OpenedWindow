@@ -1,3 +1,5 @@
 settings.ini
 *.log
 *.bak
+dist/
+__pycache__/
