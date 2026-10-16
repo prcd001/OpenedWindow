@@ -1,4 +1,4 @@
-# OpenedWindow v1.1.0 — Manual Test Suite (2026-10-16)
+# OpenedWindow — Manual Test Suite (written for v1.1.0, re-tested through v1.1.3, 2026-10-16)
 
 App: `apps/lua/OpenedWindow/` (v1.1.0). New in v1.1.0: the bound toggle key now
 **also drives the car's own window animation** (ksanim), in exact sync with the
