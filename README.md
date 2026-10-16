@@ -23,7 +23,7 @@ A wind layer (speed-dependent, crossfading low/high loops, open-window only) is 
 ## Requirements
 
 - Assetto Corsa (Steam)
-- [Custom Shaders Patch](https://github.com/ac-custom-shaders-patch/acc-extension-config) — any recent build; TODO: verify exact minimum CSP version
+- [Custom Shaders Patch](https://github.com/ac-custom-shaders-patch/acc-extension-config) — tested with CSP **0.2.11**
 - [Content Manager](https://www.contentmanager.eu/) recommended (for enabling the app and binding the key)
 
 ## Install
@@ -72,7 +72,11 @@ Transition time is fixed at 3.5 s (matches the motor sound + tail; the slider wa
 
 App not listed, key dead, windows not moving, app conflicts — see the troubleshooting table in **[docs/INSTALL.md](docs/INSTALL.md)**.
 
-<!-- TODO screenshots: add docs/img/screenshot-app.png (app UI) and docs/img/demo.gif (window roll + audio switch in action), then reference them in a Screenshots section below. -->
+## Screenshots
+
+![OpenedWindow app UI](docs/img/screenshot-app.png)
+
+<!-- TODO: add docs/img/demo.gif (window roll + audio switch in action) and reference it here. -->
 
 ## Files
 

@@ -2,8 +2,8 @@
 
 | File | Used for | Source | License |
 |---|---|---|---|
-| `window_open.mp3` | window motor one-shot (opening) | TODO: author must fill in | TODO: author must fill in |
-| `window_close.mp3` | window motor one-shot (closing) | TODO: author must fill in | TODO: author must fill in |
+| `window_open.mp3` | window motor one-shot (opening) | Recorded and edited in real life by the author (prcd) | © 2026 prcd — all rights reserved |
+| `window_close.mp3` | window motor one-shot (closing) | Recorded and edited in real life by the author (prcd) | © 2026 prcd — all rights reserved |
 
 Wind loops (`wind_low.*`, `wind_high.*`) are **not** included in this repo; when they are added, list them here with source and license before publishing.
 
